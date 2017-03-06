@@ -1,0 +1,18 @@
+{
+  "name": "angularbook",
+  "version": "1.0.0",
+  "description": "this is a app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.1.11",
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "author": "xuzhong",
+  "license": "ISC"
+}

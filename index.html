@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular Search App</title>
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<script type="text/javascript" src='vender/jquery-1.11.3.min.js'></script>
+	<script type="text/javascript" src='vender/angular.js'></script>
+	<script type="text/javascript" src='vender/angular-route.js'></script>
+	<script type="text/javascript" src='vender/bootstrap.js'></script>
+
+	<script type="text/javascript" src='src/app.js'></script>
+	<script type="text/javascript" src='src/controllers/productsController.js'></script>
+	<script type="text/javascript" src='src/services/productsFactory.js'></script>
+	<script type="text/javascript" src='src/directives/productPriceDirective.js'></script>
+	<script type="text/javascript" src='src/directives/deleteProductDirective.js'></script>
+</head>
+<body ng-app='AngularSearchApp'>
+	<div class="container">
+		<h1>Angular Search App</h1>
+		<div ng-view></div>
+	</div>
+</body>
+</html>

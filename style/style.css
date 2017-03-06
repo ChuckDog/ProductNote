@@ -1,0 +1,25 @@
+input {
+	margin-right: 6px;
+}
+
+.headerContainer {
+	margin: 8px;
+}
+
+.productButtonGroup {
+	float: right;
+}
+
+.productButtonGroup {
+	float: right;
+	bottom: 60px;
+	position: relative;
+}
+
+.addPriceBackground {
+	background-color: blue;
+}
+
+.deleteProductDirective {
+	cursor: pointer;
+}
